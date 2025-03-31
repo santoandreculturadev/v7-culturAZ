@@ -1,4 +1,3 @@
-version: '2'
 services:
   mapas:
     build:
@@ -43,7 +42,7 @@ services:
 
   redis:
     image: redis:6
-    command: --maxmemory 256Mb --maxmemory-policy allkeys-lru
+    command: --maxmemory 256Mb --maxmemory-policy allkeys-lrucd
 
   db:
     image: postgis/postgis:14-master
