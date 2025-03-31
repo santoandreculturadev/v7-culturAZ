@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 version: '2'
+=======
+>>>>>>> 018799a768f4830679b8046f5eadc2635eac1824
 services:
   mapas:
     build:
@@ -48,7 +51,11 @@ services:
 
   redis:
     image: redis:6
+<<<<<<< HEAD
     command: --maxmemory 256Mb --maxmemory-policy allkeys-lru
+=======
+    command: --maxmemory 256Mb --maxmemory-policy allkeys-lrucd
+>>>>>>> 018799a768f4830679b8046f5eadc2635eac1824
 
   db:
     image: postgis/postgis:14-master
