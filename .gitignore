@@ -3,3 +3,4 @@ docker-data.old
 node_modules
 vendor
 .env
+docker/db/dump.sql
