@@ -31,6 +31,8 @@ services:
       - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
       - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
 
+      - ../themes/CulturAZ:/var/www/src/themes/CulturAZ
+
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
       - JOBS_INTERVAL=10
