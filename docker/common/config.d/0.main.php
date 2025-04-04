@@ -1,11 +1,4 @@
 <?php 
-<<<<<<< HEAD
-
-return [
-    'app.siteName' => 'CulturAZ Santo André',
-    'app.siteDescription' => 'O Mapas Culturais é uma plataforma colaborativa que reúne informações sobre agentes, espaços, eventos, projetos culturais e oportunidades',
-    
-=======
 use MapasCulturais\i;
 
  $_SERVER['SERVER_NAME'] = 'santoandre.sp.gov.br';
@@ -18,7 +11,6 @@ return [
         'bairro' => 'Bairro',
     ],
 
->>>>>>> 018799a768f4830679b8046f5eadc2635eac1824
     // Define o tema ativo no site principal. Deve ser informado o namespace do tema e neste deve existir uma classe Theme.
     'themes.active' => 'CulturAZ',
 
